@@ -1,0 +1,115 @@
+body {
+    background-image: url(./crypto-project-background.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: initial;
+    background-position: initial;
+}
+
+.progress-bar {
+    background-color: green;
+}
+
+.header-container {
+    background-color: whitesmoke;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+#header {
+    text-align: left;
+    margin-left: 15px;
+}
+
+
+#nav-buttons {
+    padding: 1px;
+}
+
+#coin-image {
+    height: 45px;
+    width: 45px;
+}
+
+
+#coins-container {
+    margin-top: 132px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start
+}
+
+#card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+#more-info {
+    margin-top: 60px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#coin-image {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.show-more-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 105px;
+    height: 38px;
+
+}
+
+.show-less-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 105px;
+    height: 38px;
+}
+
+.coin-card {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 500px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    font-size: large;
+    margin-left: 20px;
+}
+
+
+.form-check-input:checked {
+    background-color: green !important;
+}
+
+.About-card {
+    margin-top: 10px;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+
+.modal-content {
+    margin-top: 150px;
+}
